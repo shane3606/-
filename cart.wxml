@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<van-steps
+      steps="{{ steps }}"
+      active="{{ active }}"
+      active-color="orange"
+    />
+    <van-card
+      num="2"
+      price="2.00"
+      title="메뉴 1"
+      desc="상록원"
+      thumb="/resource/image/1.png"
+    />
+    <van-card
+      num="1"
+      price="2.00"
+      title="메뉴 2"
+      desc="가든쿡"
+      thumb="/resource/image/1.png"
+    />
+    <van-button bind:click='nextStep' size="large" color="#F06806">주문</van-button>
